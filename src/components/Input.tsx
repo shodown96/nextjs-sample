@@ -9,7 +9,6 @@ interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
   error?: any;
   touched?: boolean;
   containerClass?: string;
-  copyToastText?: string;
 }
 const Input = ({
   className = "",
@@ -20,7 +19,6 @@ const Input = ({
   touched = false,
   containerClass = "",
   type = "text",
-  copyToastText,
   disabled,
   onChange,
   ...props

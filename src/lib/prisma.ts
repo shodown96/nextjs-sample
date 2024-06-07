@@ -16,7 +16,9 @@ if (process.env.NODE_ENV === "production") {
   prisma = global.prisma;
 }
 
-export const isPrismaError = (error: unknown) =>
+export const isPrismaError = (
+  error: any,
+): error is PrismaClientKnownRequestError =>
   error instanceof PrismaClientKnownRequestError;
 
 export default prisma;

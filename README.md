@@ -17,5 +17,6 @@ Open your terminal and run the following commands:
 npm install
 npm run dev
 ```
+
 You can find the deployed site at [Spinbet Interview Task](https://spinbet-interview.vercel.app/)
 Happy Hacking! 🎉
