@@ -2,6 +2,7 @@ export const VALIDATION_MESSAGES = {
   FirstNameRequired: "First name is required.",
   LastNameRequired: "Last name is required.",
   ParticipationRequired: "Participation percentage is required.",
+  NonNegativeNumber: "Only positive numbers percentage are allowed.",
 };
 
 export const ERROR_MESSAGES = {

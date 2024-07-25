@@ -10,7 +10,9 @@ const ParticipantParams = z
     lastName: z.string({
       required_error: VALIDATION_MESSAGES.LastNameRequired,
     }),
-    participation: z.number().optional(),
+    participation: z.number().nonnegative({
+      message: VALIDATION_MESSAGES.NonNegativeNumber
+    }).optional(),
   })
   .refine(
     (values) => values.firstName && values.lastName && values.participation,
