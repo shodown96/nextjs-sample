@@ -1,4 +1,4 @@
-# Spinbet Interview Task: Participation Dashboard
+# Participation Dashboard
 
 Built with NextJS + Typescript
 
@@ -18,5 +18,5 @@ npm install
 npm run dev
 ```
 
-You can find the deployed site at [Spinbet Interview Task](https://spinbet-interview.vercel.app/)
+You can find the deployed site at [Participation Board](https://participation-board.vercel.app/)
 Happy Hacking! 🎉
